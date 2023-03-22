@@ -1,4 +1,4 @@
-name: 构建
+name: 自动构建
 
 on:
   workflow_dispatch:
@@ -28,7 +28,6 @@ jobs:
             version: 7.1.1-42962
           - platform: ds920p
             version: 7.1.1-42962
-
 
     steps:
       - name: 检出项目文件
